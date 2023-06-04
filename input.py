@@ -1,6 +1,6 @@
-# INPUT:you are able to ask the user for input.
-# names = input("ENTER YOUR NAME: ")
-# print(f'{names},this is your fist input.')
+INPUT:you are able to ask the user for input.
+names = input("ENTER YOUR NAME: ")
+print(f'{names},this is your fist input.')
 # output:
 # ENTER YOUR NAME: alison
 # alison,this is your fist input.
