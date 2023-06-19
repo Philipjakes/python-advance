@@ -1,12 +1,12 @@
-# closure:is an inner function that has access to  variables of the local scope of outterfunction,evenif it is finished/run.
-# def outter():
-#     msg = "hi"
-#     def inner():
-#         name = input("enter your name : ")
-#         print(msg ,name)
-#     return inner
-# myf = outter()
-# myf()
+closure:is an inner function that has access to  variables of the local scope of outterfunction,evenif it is finished/run.
+def outter():
+    msg = "hi"
+    def inner():
+        name = input("enter your name : ")
+        print(msg ,name)
+    return inner
+myf = outter()
+myf()
 # output:
 # enter your name : ALEX
 # hi ALEX
